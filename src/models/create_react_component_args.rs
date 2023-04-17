@@ -7,6 +7,6 @@ pub struct CreateReactComponentArgs {
   #[arg(short = 'n', long = "name", required = true)]
   pub name: String,
   /// (Optional) Component Path - Which will be used as the full component path
-  #[arg(short = 'o', long = "output", required = false, default_value = "./")]
+  #[arg(short = 'o', long = "output", required = false, default_value = ".")]
   pub output: std::path::PathBuf,
 }
